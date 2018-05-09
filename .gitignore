@@ -1,15 +1,21 @@
-syntax: glob
+# Gradle
 .gradle/*
 .nb-gradle/*
 build/*
+
+# IDEA
 .idea/*
 *.iml
+
+# Eclipse
 .classpath
 .project
-.settings
-*.class
+.settinigs
 bin
+
+# Miscellaneous
 .DS_Store
 lib/*
 scenicView.properties
 *.patch
+*.class
